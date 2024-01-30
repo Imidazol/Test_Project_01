@@ -1,4 +1,101 @@
+@font-face {
+  font-family: "DM Serif Display";
+  src: <link href=
+    "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
+    rel= "stylesheet" >;
+
+  font-family: "Jost", sans-serif;
+  src: <link href=
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">;
+}
+
 body {
   background-color: #ffffff;
   font-size: 18px;
+  font-family: "DM Serif Display";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__header {
+  max-width: 1210px; 
+  width: 100%; 
+  margin-top: 54px;
+  margin-bottom: 154px;
+}
+
+.container__main {
+  max-width: 1210px;
+  width: 100%; 
+}
+
+.header {
+  position: relative;
+  /* max-height: 50px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header__logo img {
+}
+
+.header__menu {
+  display: flex;
+  margin-left: auto; !!!!!!
+  width: 712px;
+}
+
+.header__controls {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item {
+  display: block;
+  padding: 1.5rem 1rem;
+}
+
+.menu-text {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+
+.main__box {
+
+}
+
+.image {
+  background-image: url('images/image01.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.title {
+}
+.text {
+}
+.button {
 }
